@@ -31,6 +31,7 @@
     "tcomb": "^3.2.16"
   },
   "dependencies": {
+    "fluent-ffmpeg": "^2.1.0",
     "pretty-error": "^2.0.2"
   }
 }

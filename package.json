@@ -4,10 +4,10 @@
   "description": "",
   "main": "build/index.js",
   "scripts": {
-    "start": "babel-watch lib/index.js",
+    "start": "NODE_ENV=development babel-watch lib/index.js",
     "watch": "babel lib -d build --watch",
     "build": "babel lib -d build --source-maps",
-    "prod": "node index.js"
+    "prod": "node lib/index.js"
   },
   "author": "Atif Afzal",
   "license": "ISC",

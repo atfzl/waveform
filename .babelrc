@@ -2,8 +2,16 @@
   "presets": ["es2015"],
   "plugins": [
     "syntax-flow",
-    "tcomb",
     "transform-flow-strip-types"
   ],
-  "sourceMaps": true
+  "sourceMaps": true,
+  "env": {
+    "development": {
+      "plugins": [
+        "syntax-flow",
+        "tcomb",
+        "transform-flow-strip-types"
+      ]
+    }
+  }
 }

@@ -28,7 +28,6 @@
     "tcomb": "^3.2.16"
   },
   "dependencies": {
-    "pretty-error": "^2.0.2",
-    "source-map-support": "^0.4.8"
+    "pretty-error": "^2.0.2"
   }
 }

@@ -7,7 +7,8 @@
     "start": "NODE_ENV=development babel-watch lib/index.js",
     "watch": "babel lib -d build --watch",
     "build": "babel lib -d build --source-maps",
-    "prod": "node lib/index.js"
+    "prod": "node lib/index.js",
+    "flow-typed": "flow-typed install"
   },
   "author": "Atif Afzal",
   "license": "ISC",
@@ -25,6 +26,7 @@
     "eslint-plugin-flowtype": "^2.29.2",
     "eslint-plugin-import": "^2.2.0",
     "flow-bin": "^0.37.4",
+    "flow-typed": "^2.0.0",
     "nodemon": "^1.11.0",
     "tcomb": "^3.2.16"
   },
